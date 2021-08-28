@@ -43,7 +43,7 @@ function submit(e){
 
     if(guessesLeft === 0){
           //Game over if lost
-        gameOver(false, `Game over, you lost, ${winningNum} is the winning number`);
+        gameOver(false, `GAME OVER!, you lost, ${winningNum} is the winning number`);
     }
     else{
         //Game continues, answer wrong
