@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Number Guesser Game</title>
+</head>
+<body>
+    
+    <div class="game container">
+        <h2>Number Guesser</h2>
+        <p>Choose a number between <span class="min-num"></span> and <span class="max-num"></span></p>
+        <div id="form">
+            <input type="number" id="form-input" placeholder="Enter a guess...">
+            <input type="submit" value="SUBMIT" id="submit">
+            <p class="message"></p>
+        </div>
+    </div>
+
+    <div class="game-info container">
+     <h1>Game Overview</h1>
+     <p>- The correct number was programmed to be a random number
+          between 1 and 10, so you must guess between 1 and 10</p>
+     <p>- If the number you guess turns out to be the correct number,
+          you win.</p>
+     <p>- You have a maximum of 3 guesses. So if after 3 guesses 
+         your number does not match the correct number, you lose.</p>
+     <p>- After your 3 guesses have been exhausted and the numbers you
+          selected was not the correct number,
+         you get the chance to play again.</p>
+    </div>
+
+    <footer class=" footer container">
+        <p> &copy; 2021. Developed by Elue Wisdom</p>
+    </footer>
+
+
+    <script src="app.js"></script>
+</body>
+</html> 

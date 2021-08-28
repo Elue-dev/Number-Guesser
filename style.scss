@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+    background-color: #444;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    background: #f2f2f2;
+    padding: 2rem;
+    max-width: 1300px;
+    width: 90%;
+    margin: 1rem auto;
+    #form{
+        input[type=number]{
+            padding: .3rem;
+            border: 1px solid #333;
+            border-radius: .2rem;
+            outline: none;
+            font-family: 'Roboto', sans-serif;
+            &:focus{
+                border: 2px solid #333;
+            }
+        }
+        #submit{
+            padding: .4rem;
+            background: #333;
+            color: #fff;
+            border: 0;
+            border-radius: .2rem;
+            cursor: pointer;
+            outline: none;
+        }
+    }
+}
+
+.game-info{
+    margin-top: 2rem;
+}
+
+.footer{
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: .5rem;
+    width: 93.5%;
+    margin-top: 2rem;
+}
+
+@media (max-width:1024px){
+    .game{
+        margin-top: 2rem;
+    }
+
+    .footer{
+        margin-top: 21rem;
+    }
+}
+
+@media (max-width:750px){
+    .container {
+        width: 80%;
+    }
+    
+    .game{
+        margin: .8rem auto;
+    }
+
+    .footer{
+        width: 93.5%;
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width:350px){
+    .container {
+        width: 77%;
+    }
+
+    .footer{
+        width: 93.5%;
+    }
+    
+}
+
