@@ -44,7 +44,7 @@ function submit(e){
     if(guessesLeft === 0){
           //Game over if lost
         gameOver(false, `GAME OVER!, you lost, ${winningNum} is the winning number`);
-        return;
+        message.textContent = '';
     }
     else{
         //Game continues, answer wrong
@@ -63,13 +63,10 @@ function submit(e){
 
     if(isNaN(guess)){
         message.textContent = `Your guess must be a number, you wasted a guess, ${guessesLeft} guesses left`
-        return;
     }
     else if(guessesLeft===0){
         message.textContent = `GAME OVER!, you lost, ${winningNum} is the winning number`;
-        return;
     }
-    return;
 }
 
 
