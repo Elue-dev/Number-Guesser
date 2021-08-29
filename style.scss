@@ -27,7 +27,7 @@ body{
             
         }
         #submit{
-            padding: .6rem;
+            padding: .8rem;
             background: #333;
             color: #fff;
             border: 0;
@@ -68,7 +68,7 @@ body{
     }
 }
 
-@media (max-width:750px){
+@media (max-width:768px){
 
     .container {
         width: 80%;
@@ -82,6 +82,16 @@ body{
         width: 93.5%;
         margin-top: 1rem;
     }
+
+    input{
+        display: block;
+        width: 90%;
+        margin-bottom: .6rem;
+    }
+
+    #submit{
+        width: 93%;
+    }
 }
 
 @media (max-width:500px){
@@ -91,17 +101,17 @@ body{
 
     input{
         display: block;
-        margin-bottom: .6rem;
         width: 90%;
+        margin-bottom: .6rem;
     }
 
     #submit{
-        width: 95%;
-        font-weight: 700;
+        width: 95.5%;
+        font-size: 1rem;
     }
 }
 
-@media (max-width:350px){
+@media (max-width:380px){
     .container {
         width: 77%;
     }
@@ -109,6 +119,9 @@ body{
     .footer{
         width: 93.5%;
     }
-    
+
+    #submit {
+        width: 96.5%;
+    }
 }
 
