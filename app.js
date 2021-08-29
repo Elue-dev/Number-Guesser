@@ -22,7 +22,6 @@ game.addEventListener('mousedown', function(e){
       window.location.reload();
       message.style.display = 'none';
     }
-    guessInput.style.borderColor = 'black';
   });
 
 //Listen for guess
