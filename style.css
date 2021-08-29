@@ -17,7 +17,7 @@ body {
   border: 1px solid #333;
   border-radius: .2rem;
   outline: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .container #form input[type=number]:focus {
@@ -32,6 +32,26 @@ body {
   border-radius: .2rem;
   cursor: pointer;
   outline: none;
+}
+
+input::-webkit-input-placeholder {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+input:-ms-input-placeholder {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+input::-ms-input-placeholder {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+input::placeholder {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
 }
 
 .game-info {
@@ -72,6 +92,15 @@ body {
 @media (max-width: 500px) {
   body {
     font-size: .85rem;
+  }
+  input {
+    display: block;
+    margin-bottom: .6rem;
+    width: 90%;
+  }
+  #submit {
+    width: 95%;
+    font-weight: 700;
   }
 }
 

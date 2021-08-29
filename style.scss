@@ -19,10 +19,12 @@ body{
             border: 1px solid #333;
             border-radius: .2rem;
             outline: none;
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Poppins', sans-serif;
             &:focus{
                 border: 2px solid #333;
             }
+
+            
         }
         #submit{
             padding: .6rem;
@@ -35,6 +37,13 @@ body{
         }
     }
 }
+
+    input::placeholder{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+
+    
 
 .game-info{
     margin-top: 2rem;
@@ -78,6 +87,17 @@ body{
 @media (max-width:500px){
     body{
         font-size: .85rem;
+    }
+
+    input{
+        display: block;
+        margin-bottom: .6rem;
+        width: 90%;
+    }
+
+    #submit{
+        width: 95%;
+        font-weight: 700;
     }
 }
 

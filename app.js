@@ -28,7 +28,7 @@ game.addEventListener('mousedown', function(e){
 submitGuess.addEventListener ('click', submit);
 
 
-function submit(e){
+function submit(){
     let guess = parseInt(guessInput.value);
 
     if(isNaN(guess) || guess < 0 || guess > 10){
