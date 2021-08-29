@@ -13,7 +13,7 @@ body {
 }
 
 .container #form input[type=number] {
-  padding: .3rem;
+  padding: .5rem;
   border: 1px solid #333;
   border-radius: .2rem;
   outline: none;
@@ -25,7 +25,7 @@ body {
 }
 
 .container #form #submit {
-  padding: .4rem;
+  padding: .6rem;
   background: #333;
   color: #fff;
   border: 0;

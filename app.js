@@ -56,7 +56,17 @@ function submit(e){
        
     }
   }
+    if(guess < 0 || guess > 10){
+        message.textContent = `Your guess must be between ${min} and ${max}, ${guessesLeft} guesses left `
 }
+
+    if(isNaN(guess)){
+        message.textContent = `Input must be a number, you wasted a guess, ${guessesLeft} guesses left`
+        return;
+    }
+}
+
+
 
 function setMessage(msg, color){
     message.style.color =color;
