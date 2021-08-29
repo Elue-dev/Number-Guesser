@@ -58,12 +58,13 @@ function submit(e){
     }
   }
     if(guess < 0 || guess > 10){
-        message.textContent = `Your guess must be between ${min} and ${max}, ${guessesLeft} guesses left `
+        message.textContent = `Your guess must be between ${min} and ${max}, you wasted a guess, ${guessesLeft} guesses left `
     }
 
     if(isNaN(guess)){
         message.textContent = `Your guess must be a number, you wasted a guess, ${guessesLeft} guesses left`
     }
+
     else if(guessesLeft===0){
         message.textContent = `GAME OVER!, you lost, ${winningNum} is the winning number`;
     }
