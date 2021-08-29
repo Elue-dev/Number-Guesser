@@ -21,8 +21,8 @@ game.addEventListener('mousedown', function(e){
     if(e.target.className === 'play-again'){
       window.location.reload();
       message.style.display = 'none';
-      guessInput.style.borderColor = 'black'
     }
+    guessInput.style.borderColor = 'black';
   });
 
 //Listen for guess
