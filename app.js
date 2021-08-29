@@ -61,8 +61,11 @@ function submit(e){
 }
 
     if(isNaN(guess)){
-        message.textContent = `Input must be a number, you wasted a guess, ${guessesLeft} guesses left`
+        message.textContent = `Your guess must be a number, you wasted a guess, ${guessesLeft} guesses left`
         return;
+    }
+    else if(guessesLeft===0){
+        message.textContent = `GAME OVER!, you lost, ${winningNum} is the winning number`;
     }
 }
 
