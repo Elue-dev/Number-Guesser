@@ -20,7 +20,8 @@ maxNum.textContent = max;
 game.addEventListener('mousedown', function(e){
     if(e.target.className === 'play-again'){
       window.location.reload();
-      message.style.display = 'none';
+      message.textContent = '';
+      guessInput.style.borderColor = 'none'
     }
   });
 
