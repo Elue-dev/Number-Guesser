@@ -60,6 +60,7 @@ body{
 }
 
 @media (max-width:750px){
+
     .container {
         width: 80%;
     }
@@ -71,6 +72,12 @@ body{
     .footer{
         width: 93.5%;
         margin-top: 1rem;
+    }
+}
+
+@media (max-width:500px){
+    body{
+        font-size: .7rem;
     }
 }
 
