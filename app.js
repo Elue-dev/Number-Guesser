@@ -44,7 +44,7 @@ function submit(e){
 
     if(guessesLeft === 0){
           //Game over if lost
-        gameOver(false, `GAME OVER!, you lost, ${winningNum} is the winning number`);
+        gameOver(false, `GAME OVER!, you lost, ${winningNum} was the winning number`);
     }
     else{
         //Game continues, answer wrong
@@ -66,7 +66,7 @@ function submit(e){
     }
 
     else if(guessesLeft===0){
-        message.textContent = `GAME OVER!, you lost, ${winningNum} is the winning number`;
+        message.textContent = `GAME OVER!, you lost, ${winningNum} was the winning number`;
     }
 }
 
