@@ -54,6 +54,10 @@ input::placeholder {
   font-weight: 500;
 }
 
+.prev {
+  display: none;
+}
+
 .game-info {
   margin-top: 2rem;
 }

@@ -30,8 +30,9 @@ submitGuess.addEventListener ('click', submit);
 
 function submit(){
     let guess = parseInt(guessInput.value);
+    prev.style.display = 'block';
 
-    if(isNaN(guess) || guess <= 0 || guess > 10){
+    if(isNaN(guess) || guess < 1 || guess > 10){
         setMessage(`Please enter a number between ${min} and ${max}`, 'red');
     }
     
