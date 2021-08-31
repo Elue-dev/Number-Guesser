@@ -62,7 +62,7 @@ function submit(){
     }
 
     if(isNaN(guess)){
-        message.textContent = `Your guess must be a number, you wasted a guess, ${guessesLeft} guesses left`
+        message.textContent = `Your guess must be a number between 1 and 10, you wasted a guess, ${guessesLeft} guesses left`
     }
 
     else if(guessesLeft===0){

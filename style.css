@@ -34,6 +34,10 @@ body {
   outline: none;
 }
 
+.container .message {
+  font-weight: 700;
+}
+
 input::-webkit-input-placeholder {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
